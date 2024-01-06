@@ -15,7 +15,8 @@ The dataset mainly consists of details of students with the following features:
 In this we are trying to show:
 1.  **Comparative deposits by program on monthly or yearly basis**
     ![Dashboard Screenshot](Comparitive_Deposits.jpg)
-2.  The demographic breakdown of one program. 
+
+2.  **The demographic breakdown of one program**
     ![Dashboard Screenshot](Demographics.jpg)
 The data analysis revealed some of the  values in Program_Desc repeated with some errors.
 The errors is handled using text-distance such as Levinshtein Distance, cosine similarity or Jaccard distance.
@@ -23,5 +24,5 @@ The errors is handled using text-distance such as Levinshtein Distance, cosine s
 - For this case, I have used Jaccard distance.
 - The Jaccard distance is computed by subtracting the Jaccard coefficient from one, or by dividing the difference in the sizes of the union and the intersection of two sets by the size of the union.
 
-
+Overall , Business Administration demonstrated highest annual admission rates and hence the demographics of it as show above. 
  
